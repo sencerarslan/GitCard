@@ -1,0 +1,75 @@
+.container{
+    margin:0px auto;
+    max-width: 400px; 
+    padding-top: 100px;
+}
+
+.form{ 
+     padding: 15px;
+     width: calc(100% - 30px);  
+}
+ 
+
+.card {
+    max-width: 100%; 
+    box-shadow: none;
+    border:solid 1px #e0e0e0;
+    padding: 0px;
+
+    .header{
+        text-align: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        margin-top:30px;
+        
+        .avatar{
+            margin: auto;
+            width: 100px;
+            height: 100px;
+            margin-bottom: 15px; 
+            img{
+                width: 100%;
+                height: 100%;
+            }
+            .mat-badge-content{
+                right: 5px;
+                top: 5px;
+                font-size: 9px;
+            }
+        }
+    }
+    .button{
+        text-align: center;
+        justify-content: center;  
+        a{
+            line-height: 16px;
+        }
+    }
+    .scroll{
+        height: 300px;
+        overflow: auto;
+
+        a{
+            text-decoration: none;
+        }
+    }
+
+    mat-grid-list {
+        background: #3f51b5;
+        padding-bottom: 40px!important;
+        border-radius:0px 0px 4px 4px;
+
+        mat-grid-tile{
+            padding-top: 40px!important;
+            font-size: 14px;
+            font-weight: 400;
+            color:#fff;
+        }
+      }
+  }
+
+
+  body{
+      background-image: url('https://picsum.photos/1200/1200/?grayscale');
+      background-position: 100%
+  }

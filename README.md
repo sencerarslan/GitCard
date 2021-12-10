@@ -1,5 +1,7 @@
-# GitCard
 ![alt text](https://github.com/sencerarslan/GitCard/blob/master/thumbnail.gif?raw=true)
+
+# GitCard
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.
 
 ## Development server
